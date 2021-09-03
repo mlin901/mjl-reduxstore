@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useQuery } from '@apollo/client';
-import { useDispatch, useSelector } from 'react-redux';  // ******* NEW ******
-// import { useStoreContext } from '../../utils/GlobalState';  // ****REMOVE******
+import { useDispatch, useSelector } from 'react-redux';  
+// import { useStoreContext } from '../../utils/GlobalState';  
 import {
   UPDATE_CATEGORIES,
   UPDATE_CURRENT_CATEGORY,
@@ -10,9 +10,9 @@ import { QUERY_CATEGORIES } from '../../utils/queries';
 import { idbPromise } from '../../utils/helpers';
 
 function CategoryMenu() {
-  // const [state, dispatch] = useStoreContext();  // ****** REMOVE ******
-  const dispatch = useDispatch();  // ******** NEW *******
-  const state = useSelector((state) => state); // ******** NEW *******
+  // const [state, dispatch] = useStoreContext();  
+  const dispatch = useDispatch(); 
+  const state = useSelector((state) => state);
 
   const { categories } = state;
 
