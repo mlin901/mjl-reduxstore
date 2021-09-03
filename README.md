@@ -1,1 +1,1 @@
-# mjl-reduxstore
+# mjl_reduxstore
