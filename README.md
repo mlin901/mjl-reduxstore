@@ -70,6 +70,6 @@ Outside contributions are not being accepted since this project is for education
 Send questions to mjlinder218@gmail.com. 
 For more information about the developer, see https://github.com/mlin901.
 
-## Screenshot ************
+## Screenshot
 
 ![Tech Blog screenshot](./resources/reduxStoreScreenshot.jpg)
